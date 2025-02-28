@@ -1,3 +1,4 @@
+import { DragDropModule } from '@angular/cdk/drag-drop';
 import { AsyncPipe } from '@angular/common';
 import {
   ChangeDetectionStrategy,
@@ -44,6 +45,7 @@ export class AppComponent {
     MatAutocompleteModule,
     ReactiveFormsModule,
     AsyncPipe,
+    DragDropModule,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
